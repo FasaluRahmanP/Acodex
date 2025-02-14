@@ -1,52 +1,113 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+/* MAIN PAGE */
 .background-image {
-    position: relative; 
-    padding: 20px; 
-    box-sizing: border-box; 
-    width: 100%; 
-    height: auto; 
+    position: relative;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
 }
 
 .background-image img {
-    width: 100%; 
-    height: auto; 
-    display: block; 
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
 .wistree-logo {
     position: absolute;
-    top: 30px; 
+    top: 30px;
     left: 30px;
-    width: 170px; 
+    width: 170px;
     height: auto;
 }
 
 .wistree-logo img {
-    width: 100%; 
+    width: 100%;
     height: auto;
-    display: block; 
+    display: block;
 }
 
 .spring-left {
-    position: absolute; 
-    top: 48%; 
-    left: 28%; 
-    transform: translate(-50%, -50%); 
+    position: absolute;
+    top: 48%;
+    left: 28%;
+    transform: translate(-50%, -50%);
 }
 
 .spring-left img {
-    width: 100%; 
-    height: auto; 
-    display: block; 
+    width: 100%;
+    height: auto;
+    display: block;
 }
+
 .spring-right {
-    position: absolute; 
-    top: 33%; 
-    right:-100px; 
-    transform: translate(-50%, -50%); 
+    position: absolute;
+    top: 33%;
+    right: -100px;
+    transform: translate(-50%, -50%);
 }
 
 .spring-right img {
-    width: 100%; 
-    height: auto; 
-    display: block; 
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.heading {
+    color: white;
+    font-size: 120px;
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    top: 180px;
+    width: 100%;
+}
+
+.line1 {
+    display: block;
+    position: absolute;
+    right: 35px;
+    top: -20px;
+}
+
+.line2 {
+    display: block;
+    position: absolute;
+    left: -20px;
+    top: 130px;
+}
+
+.circle {
+    position: absolute;
+    top: 45%;
+    left: 52%;
+    width: 225px;
+    height: 225px;
+    z-index: 2;
+}
+
+.home-text {
+    width: 284px;
+    height: 108px;
+    font-family: 'Libre Franklin', sans-serif;
+    position: absolute;
+    top: 60%;
+    left: 72%;
+    color: white;
+    font-weight: 100;
+    font-size: 18x;
+    line-height: 27px;
+}
+
+.home-button {
+    position: absolute;
+    width: 115px;
+    height: 65px;
+    top: 700px;
+    left: 628px;
 }
