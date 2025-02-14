@@ -1,0 +1,52 @@
+.background-image {
+    position: relative; 
+    padding: 20px; 
+    box-sizing: border-box; 
+    width: 100%; 
+    height: auto; 
+}
+
+.background-image img {
+    width: 100%; 
+    height: auto; 
+    display: block; 
+}
+
+.wistree-logo {
+    position: absolute;
+    top: 30px; 
+    left: 30px;
+    width: 170px; 
+    height: auto;
+}
+
+.wistree-logo img {
+    width: 100%; 
+    height: auto;
+    display: block; 
+}
+
+.spring-left {
+    position: absolute; 
+    top: 48%; 
+    left: 28%; 
+    transform: translate(-50%, -50%); 
+}
+
+.spring-left img {
+    width: 100%; 
+    height: auto; 
+    display: block; 
+}
+.spring-right {
+    position: absolute; 
+    top: 33%; 
+    right:-100px; 
+    transform: translate(-50%, -50%); 
+}
+
+.spring-right img {
+    width: 100%; 
+    height: auto; 
+    display: block; 
+}
