@@ -3,6 +3,10 @@ body {
     padding: 0;
     overflow-x: hidden;
 }
+:root {
+    --main-font: 'Poppins', sans-serif;
+    --secondary-font: 'Libre Franklin', sans-serif;
+}
 
 /* MAIN PAGE */
 .background-image {
@@ -62,7 +66,7 @@ body {
 .heading {
     color: white;
     font-size: 120px;
-    font-family: 'Poppins', sans-serif;
+    font-family: var(--main-font);
     position: absolute;
     top: 180px;
     width: 100%;
@@ -94,7 +98,7 @@ body {
 .home-text {
     width: 284px;
     height: 108px;
-    font-family: 'Libre Franklin', sans-serif;
+    font-family:var(--secondary-font);
     position: absolute;
     top: 60%;
     left: 72%;
@@ -110,4 +114,61 @@ body {
     height: 65px;
     top: 700px;
     left: 628px;
+}
+/* Section-2 */
+.section2 {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    margin-top: 6%;
+}
+
+h6 {
+    font-family: var(--secondary-font);
+    font-weight: 400;
+    font-size: 112%;
+}
+
+hr {
+    margin-top: -1%;
+}
+
+.heading-2 {
+    font-family: var(--main-font);
+    font-weight: 400;
+    font-size: 531%;
+    margin-top: 2%;
+    color: #104386;
+}
+
+.heading-2 span {
+    display: block;
+    line-height: 70%;
+}
+
+.paragraph-1,
+.paragraph-2 {
+    font-family: var(--secondary-font);
+    font-weight: 400;
+    line-height: 27px;
+    font-size: 100%;
+    color: #2B2A29E5;
+    margin-right: 0%;
+}
+
+.paragraph-1 {
+    width: 31%;
+    height: 27.50%;
+}
+
+.paragraph-2 {
+    width: 32%;
+    height: 25%;
+}
+
+.text-container {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    margin-top: -2%;
 }
