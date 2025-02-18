@@ -355,3 +355,86 @@ hr {
     padding: 20px;
     font-size: 170px;
 }
+
+.heading-5 {
+    position: absolute;
+    font-family: var(--main-font);
+    font-weight: 400;
+    font-size: 531%;
+    margin-top: 15%;
+    color: #104386;
+    padding: 20px;
+}
+
+.heading-5 span {
+    display: block;
+    line-height: 80%;
+}
+
+.heading-5-1 {
+    background: linear-gradient(to right, #345f97, #93aac5);
+    background-clip: text;
+    color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+
+.card {
+    position: absolute;
+    margin-top: 480px;
+    padding: 20px;
+}
+
+.cardcircle {
+    position: absolute;
+    margin-top: 670px;
+    padding: 20px;
+    margin-left: 235px;
+    z-index: 1;
+}
+
+.rcard {
+    position: absolute;
+    margin-top: 480px;
+    padding: 20px;
+    margin-left: 350px;
+}
+
+.cardcircle1 {
+    position: absolute;
+    margin-top: 480px;
+    padding: 20px;
+    margin-left: 580px;
+    z-index: 1;
+}
+
+.card1 {
+    position: absolute;
+    margin-top: 480px;
+    padding: 20px;
+    margin-left: 700px;
+    z-index: 2;
+}
+
+.rcard1 {
+    position: absolute;
+    margin-top: 480px;
+    padding: 20px;
+    margin-left: 1050px;
+}
+
+.cardcircle2 {
+    position: absolute;
+    margin-top: 680px;
+    padding: 20px;
+    margin-left: 930px;
+    z-index: 2;
+}
+
+.cardcircle3 {
+    position: absolute;
+    margin-top: 480px;
+    padding: 20px;
+    margin-left: 1280px;
+    z-index: 1;
+}
